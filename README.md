@@ -1,8 +1,25 @@
-# Dockerfile to create a Netcat container.
+# A `netcat` Docker container
 
 The `netcat` (or `nc`) is a very versatile network security tool.
 In this case, this `netcat` container will open 2 ports suitable to listen TCP/UDP traffic.
 For further information about `netcat`, check out this page: [http://nc110.sourceforge.net](http://nc110.sourceforge.net)
+
+
+> Netcat 1.10
+> ===========                                                        /\_/\       
+>                                                                   / 0 0 \      
+> Netcat is a simple Unix utility which reads and writes data      ====v====     
+> across network connections, using TCP or UDP protocol.            \  W  /      
+> It is designed to be a reliable "back-end" tool that can          |     |     _
+> be used directly or easily driven by other programs and           / ___ \    / 
+> scripts.  At the same time, it is a feature-rich network         / /   \ \  |  
+> debugging and exploration tool, since it can create almost      (((-----)))-'  
+> any kind of connection you would need and has several            /             
+> interesting built-in capabilities.  Netcat, or "nc" as the      (      ___     
+> actual program is named, should have been supplied long ago      \__.=|___E    
+> as another one of those cryptic but standard Unix tools.                /   
+> 
+> _http://nc110.sourceforge.net_
 
 ## Usage
 
