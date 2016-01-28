@@ -1,0 +1,24 @@
+# Build and Release Folders
+bin/
+bin-debug/
+bin-release/
+
+# Other files and folders
+.settings/
+src/
+*.pyc
+
+# My Ignores
+\.DS_Store
+\.classpath
+\.project
+\.settings
+\.metadata/
+Servers/
+target/
+.idea
+.vagrant
+*.jar
+*.zip
+*.iso
+_downloads/
